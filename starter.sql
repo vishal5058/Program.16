@@ -1,8 +1,8 @@
 SET SERVEROUTPUT ON;
 
 BEGIN
-
-    -- Write a FOR LOOP to display numbers from 1 to 10.
-
+    FOR i IN 1..10 LOOP
+        DBMS_OUTPUT.PUT_LINE(i);
+    END LOOP;
 END;
 /
